@@ -9,6 +9,17 @@ import '@aws-amplify/ui-react/styles.css'
 
 Amplify.configure(awsExports)
 
+// export default function App() {
+//   return (
+//     <BrowserRouter>
+//       <Routes>
+//         <Route path="/" element={<Home />} />
+//         <Route path="/projects" element={<Projects />} />
+//       </Routes>
+//     </BrowserRouter>
+//   )
+// }
+
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
