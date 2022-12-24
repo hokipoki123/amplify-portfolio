@@ -6,40 +6,16 @@ import reportWebVitals from './reportWebVitals'
 import { Amplify } from 'aws-amplify'
 import awsExports from './aws-exports'
 import '@aws-amplify/ui-react/styles.css'
-import { Provider } from 'react-redux'
-import store from './store'
-import { BrowserRouter as Router } from 'react-router-dom'
+// import { BrowserRouter as Router } from 'react-router-dom'
 
 Amplify.configure(awsExports)
 
-// export default function App() {
-//   return (
-//     <BrowserRouter>
-//       <Routes>
-//         <Route path="/" element={<Home />} />
-//         <Route path="/projects" element={<Projects />} />
-//       </Routes>
-//     </BrowserRouter>
-//   )
-// }
-
-document.addEventListener('DOMContentLoaded', () => {
-  ReactDOM.render(
-    <Provider store={store}>
-      <Router>
-        <App />
-      </Router>
-    </Provider>,
-    document.getElementById('app')
-  )
-})
-
-// const root = ReactDOM.createRoot(document.getElementById('root'))
-// root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// )
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+)
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
