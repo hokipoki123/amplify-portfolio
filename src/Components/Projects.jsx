@@ -1,7 +1,12 @@
-import React from 'react'
+// import React from 'react'
 
 function projects() {
-  return <h1>Here are my projects</h1>
+  return (
+    <div>
+      <h1>Here are my projects</h1>
+      <p>They are many</p>
+    </div>
+  )
 }
 
 export default projects

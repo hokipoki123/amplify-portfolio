@@ -1,14 +1,15 @@
 // import { Routes, Route } from 'react-router-dom'
 // import { Link } from '@aws-amplify/ui-react';
+import { Button } from '@aws-amplify/ui-react'
 
 // import { Link, Flex } from '@aws-amplify/ui-react'
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Home from './Home'
 import About from './About'
-import Contact from './Contact'
+// import Contact from './Contact'
 import Header from './Components/Header'
-import Nav from './Components/Nav'
+import Projects from './Components/Projects'
 
 // import {
 //   BrowserRouter as Router,
@@ -30,38 +31,32 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Nav />
 
         <Router>
-          <ul>
-            <li>
-              <Link to={'/'} className="nav-link">
-                {' '}
-                Home{' '}
-              </Link>
-            </li>
-            <li>
-              <Link to={'/contact'} className="nav-link">
-                Contact
-              </Link>
-            </li>
-            <li>
-              <Link to={'/about'} className="nav-link">
-                About
-              </Link>
-            </li>
-          </ul>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/contact" component={Contact} />
-            <Route path="/about" component={About} />
-          </Switch>
+          <Link to={'/'} className="nav-link">
+            {' '}
+            <Button>Home </Button>
+          </Link>
+
+          <Link to={'/about'} className="nav-link">
+            <Button>About</Button>
+          </Link>
+
+          <Link to={'.../Components/Projects'} className="nav-link">
+            <Button>Projects</Button>
+          </Link>
+
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path=".../Components/Projects" element={<Projects />} />
+            <Route path="/about" element={<About />} />
+          </Routes>
           {/* <Flex>
           <ReactRouterLink to="/Components/Projects" component={Link}>
             Projects
           </ReactRouterLink>
         </Flex> */}
-          <Home />
+          {/* <Home /> */}
           {/* 
         <Routes>
           <Route path="/" element={<Home />} />
