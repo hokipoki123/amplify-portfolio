@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals'
 import { Amplify } from 'aws-amplify'
 import awsExports from './aws-exports'
 import '@aws-amplify/ui-react/styles.css'
+// import { BrowserRouter as Router } from 'react-router-dom'
 
 Amplify.configure(awsExports)
 
