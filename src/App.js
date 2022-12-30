@@ -18,7 +18,7 @@ import Projects from './Components/Projects'
 //   // Route,
 // } from 'react-router-dom'
 
-// import './App.css'
+import './App.css'
 
 // import Projects from './Components/Projects'
 
