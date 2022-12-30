@@ -3,7 +3,7 @@
 function projects() {
   return (
     <div>
-      <h1>Here are my projects</h1>
+      <h2>Here are my projects</h2>
       <p>They are many</p>
     </div>
   )
