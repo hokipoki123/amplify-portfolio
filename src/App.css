@@ -1,15 +1,38 @@
 .App {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
-  background-color: rgba(0, 153, 255, 0.877);
+  margin-left: 100px;
+  margin-right: 100px;
+  
+  
+}
+
+.Header {
+  background-color:  rgb(209, 176, 115);
+  border-style: solid;
+}
+
+.Nav {
+  background-color:  rgb(209, 176, 115);
+  border-style: solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
 }
 
 .Body {
-  color: rgb(196, 40, 40);
-  text-shadow: #fbb361;
-  background-color: aquamarine;
-
+  background-color:  rgb(209, 176, 115);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: solid;
 }
+
+.Footer {
+  background-color:  rgb(209, 176, 115);
+  border-style: solid;
+}
+
+html {background-color: rgb(230, 202, 150)}
 
 .App-logo {
   height: 40vmin;
