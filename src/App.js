@@ -15,6 +15,7 @@ import Footer from './Components/Footer'
 
 
 import './App.css'
+import APIpage from './Components/APipage';
 
 
 class App extends Component {
@@ -40,6 +41,10 @@ class App extends Component {
           <Link to={'.../Components/Projects'} className="nav-link">
             <Button variation="menu">Projects</Button>
           </Link>
+
+          <Link to={'.../Components/APIpage'} className="nav-link">
+            <Button variation="menu">API's</Button>
+          </Link>
           </div>
           
           
@@ -50,6 +55,7 @@ class App extends Component {
             <Route exact path="/" element={<Home />} />
             <Route path=".../Components/Projects" element={<Projects />} />
             <Route path="/about" element={<About />} />
+            <Route path=".../Components/APIpage" element={<APIpage />} />
           </Routes>
         </div>
         </Router> 
