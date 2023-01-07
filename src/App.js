@@ -1,5 +1,7 @@
 
 import { Button } from '@aws-amplify/ui-react'
+import '@aws-amplify/ui-react/styles.css';
+
 
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
@@ -28,15 +30,15 @@ class App extends Component {
         <Router>
         <div className="Nav">
           <Link to={'/'} className="nav-link">
-            <Button>Home </Button>
+            <Button variation="menu">Home </Button>
           </Link>
 
           <Link to={'/about'} className="nav-link">
-            <Button>About</Button>
+            <Button variation="menu">About</Button>
           </Link>
 
           <Link to={'.../Components/Projects'} className="nav-link">
-            <Button>Projects</Button>
+            <Button variation="menu">Projects</Button>
           </Link>
           </div>
           
