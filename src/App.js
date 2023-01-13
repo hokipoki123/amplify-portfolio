@@ -15,7 +15,7 @@ import Footer from './Components/Footer'
 
 
 import './App.css'
-import APIpage from './Components/APipage';
+import APIpage from './Components/APIpage';
 
 
 class App extends Component {
