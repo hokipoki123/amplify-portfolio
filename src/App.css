@@ -32,7 +32,10 @@
   border-style: solid;
 }
 
-html {background-color: rgb(230, 202, 150)}
+html {
+  background-color: rgb(230, 202, 150);
+  background-image: url('/src/images/heiroglyphs.jpg');
+}
 
 .App-logo {
   height: 40vmin;

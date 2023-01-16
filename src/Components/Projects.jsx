@@ -1,5 +1,4 @@
 import React from 'react'
-// import WOAB from "../images/WOAB.PNG"
 import { Button } from '@aws-amplify/ui-react'
 import '@aws-amplify/ui-react/styles.css';
 
