@@ -24,14 +24,9 @@ function DataFetching() {
         <div>
             <input type="text" value={id} onChange={e => setId(e.target.value)} />
             <button type="button" onClick={handleClick}>Find Post</button>
-
+            <p></p>
             <div>Result: {post.title}</div>
-            {/* <ul>
-                {
-                posts.map(posts => (<li key={posts.id}>{posts.title}</li>
-                    ))
-                }
-            </ul> */}
+            <p></p>
         </div>
     )
 }

@@ -8,12 +8,12 @@
 }
 
 .Header {
-  background-color:  rgb(209, 176, 115);
+  background-color:  rgb(243, 216, 165);
   border-style: solid;
 }
 
 .Nav {
-  background-color:  rgb(209, 176, 115);
+  background-color:  rgb(243, 216, 165);
   border-style: solid;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -21,14 +21,14 @@
 }
 
 .Body {
-  background-color:  rgb(209, 176, 115);
+  background-color:  rgb(243, 216, 165);
   margin-top: 20px;
   margin-bottom: 20px;
   border-style: solid;
 }
 
 .Footer {
-  background-color:  rgb(209, 176, 115);
+  background-color:  rgb(243, 216, 165);
   border-style: solid;
 }
 
@@ -72,3 +72,7 @@ html {
   }
 }
 
+.Picture {
+  height: auto;
+  width: 50%;
+}
