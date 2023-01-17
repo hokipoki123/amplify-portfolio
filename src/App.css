@@ -73,3 +73,7 @@ html {
   }
 }
 
+.Picture {
+  height: auto;
+  width: 50%;
+}
