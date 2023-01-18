@@ -14,6 +14,7 @@ function projects() {
       <img className="Picture" src={Woab} alt="Welly on a Beach"/>
       <p></p>
       <a href="https://woab.devacademy.online/"><Button variation="menu">Wellington on a Beach</Button></a>
+      <p></p>
     </div>
   )
 }
